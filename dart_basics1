@@ -1,0 +1,11 @@
+import 'package:dart_application_1/dart_application_1.dart'
+    as dart_application_1;
+import 'dart:io';
+
+void main() {
+  print("Enter your name and age");
+  String? name = stdin.readLineSync();
+  int? n = int.parse(stdin.readLineSync()!);
+  int a = 100 - n;
+  print("YOU have $a years left to be 100 years old");
+}
